@@ -35,3 +35,11 @@ const obj3 = Object.assign({}, obj1, obj2);
 
 const spreadObj = { ...obj1, ...obj2 };
 // console.log(spreadObj);
+
+const courseObj = {
+    name: "JavaScript",
+    price: 999,
+    instructor: "Ayan Koley",
+}
+const { name: courseName, price, instructor } = courseObj;
+console.log(courseName);
